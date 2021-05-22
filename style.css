@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.section1{
+    min-height: 100vh;
+    background: black;
+    overflow: hidden;
+}
+
+header{
+    height: 100px;
+    width: 80%;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header .logo{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    margin-left: 200px;
+}
+.menu{
+    position: absolute;
+    right: 190px;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    padding-left: 60px;
+    font-size: 22px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+.menu ul li a:hover{
+    color: rgb(255, 145, 0);
+    transition: 0.5s;
+}
+
+.textBox1{
+    max-width: 500px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.textBox1 h1{
+    font-size: 75px;
+    color: white;
+    line-height: 100px;
+}
+.textBox1 h2{
+    font-size: 50px;
+    color: rgb(255, 145, 0);
+    margin-top: 30px;
+}
+.textBox1 p{
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.textBox1 a{
+    position: relative;
+    top: 60px;
+    background: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.textBox1 a:hover{
+    color: white;
+    background-color: black;
+    transition: 0.6s;
+}
+
+.imgBox1{
+    position: absolute;
+    top: 150px;
+    right: 250px;
+    width: 600px;
+    height: 600px;
+}
+.imgBox1 img{
+    cursor: pointer;
+    width: 600px;
+    height: 600px;
+}
+
+.section2{
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section2 h2{
+    position: relative;
+    top: 40px;
+    left: 28%;
+    font-size: 55px;
+}
+.section2 img{
+    width: 700px;
+    height: 700px;
+    position: relative;
+    top: 10px;
+    left: 30%;
+}
+.section2 p{
+    max-width: 1100px;
+    position: relative;
+    left: 20%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.section2 a{
+    background: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 60px;
+    left: 43.5%;
+}
+
+.section3{
+    min-height: 105vh;
+    width: 100%;
+    overflow: hidden;
+    background: black;
+    margin-top: 20px;
+}
+.section3 .textBox3{
+    max-width: 650px;
+    position: relative;
+    top: 20px;
+    left: 32%;
+}
+.section3 .textBox3 h2{
+    color: white;
+    font-size: 55px;
+    text-align: center;
+}
+.section3 .textBox3 p{
+    color: white;
+    text-align: center;
+}
+
+.cardset1{
+    /* background: red; */
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 350px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cardset1 .card1{
+    max-width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.cardset1 .card1:hover{
+    background :rgb(58, 0, 105);
+    transition: 1.1s;
+}
+
+
+.cardset1 .card1 img{
+    position: relative;
+    left: 36%;
+    top: 40px;
+    border: 1px solid pink;
+    background: pink;
+    padding: 20px;
+    border-radius: 50%;
+}
+.cardset1 .card1 h3{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    color: white;
+}
+.cardset1 .card1 p{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.cardset1 .card2{
+    max-width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.cardset1 .card2:hover{
+    background :rgb(58, 0, 105);
+    transition: 1.1s;
+}
+
+.cardset1 .card2 img{
+    position: relative;
+    left: 36%;
+    top: 40px;
+    border: 1px solid pink;
+    background: pink;
+    padding: 20px;
+    border-radius: 50%;
+}
+.cardset1 .card2 h3{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    color: white;
+}
+.cardset1 .card2 p{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.cardset1 .card3{
+    max-width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.cardset1 .card3:hover{
+    background :rgb(58, 0, 105);
+    transition: 1.1s;
+}
+
+.cardset1 .card3 img{
+    position: relative;
+    left: 36%;
+    top: 40px;
+    border: 1px solid pink;
+    background: pink;
+    padding: 20px;
+    border-radius: 50%;
+}
+.cardset1 .card3 h3{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    color: white;
+}
+.cardset1 .card3 p{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+
+.cardset2{
+    /* background: red; */
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 350px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cardset2 .card4{
+    max-width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.cardset2 .card4:hover{
+    background :rgb(58, 0, 105);
+    transition: 1.1s;
+}
+
+.cardset2 .card4 img{
+    position: relative;
+    left: 36%;
+    top: 40px;
+    border: 1px solid pink;
+    background: pink;
+    padding: 20px;
+    border-radius: 50%;
+}
+.cardset2 .card4 h3{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    color: white;
+}
+.cardset2 .card4 p{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.cardset2 .card5{
+    max-width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.cardset2 .card5:hover{
+    background :rgb(58, 0, 105);
+    transition: 1.1s;
+}
+
+.cardset2 .card5 img{
+    position: relative;
+    left: 36%;
+    top: 40px;
+    border: 1px solid pink;
+    background: pink;
+    padding: 20px;
+    border-radius: 50%;
+}
+.cardset2 .card5 h3{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    color: white;
+}
+.cardset2 .card5 p{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+.cardset2 .card6{
+    max-width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.cardset2 .card6:hover{
+    background :rgb(58, 0, 105);
+    transition: 1.1s;
+}
+
+.cardset2 .card6 img{
+    position: relative;
+    left: 36%;
+    top: 40px;
+    border: 1px solid pink;
+    background: pink;
+    padding: 20px;
+    border-radius: 50%;
+}
+.cardset2 .card6 h3{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    color: white;
+}
+.cardset2 .card6 p{
+    position: relative;
+    top: 90px;
+    text-align: center;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.section3 a{
+    background: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 45.2%;
+    top: 50px;
+}
+.section3 a:hover{
+    background:rgb(58, 0, 105);
+    color:white;
+    transition: 0.5s;
+}
+
+.section4{
+    min-height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+    /* margin-top: px; */
+}
+
+.section4 .textBox4{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.section4 .textBox4 h2{
+    font-size: 55px;
+}
+
+.cardset3{
+    /* background: red; */
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 450px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardset3 .card7{
+    max-width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.459) 5px 5px 9px;
+
+}
+.cardset3 .card7 img{
+    position: relative;
+    top: 30px;
+    left: 36%;
+}
+.cardset3 .card7 h3{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.cardset3 .card7 p{
+    position: relative;
+    top: 80px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 30px;
+}
+
+.cardset3 .card8{
+    max-width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.459) 5px 5px 9px;
+}
+.cardset3 .card8 img{
+    position: relative;
+    top: 30px;
+    left: 36%;
+}
+.cardset3 .card8 h3{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.cardset3 .card8 p{
+    position: relative;
+    top: 80px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 30px;
+}
+
+.cardset3 .card9{
+    max-width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.459) 5px 5px 9px;
+    cursor: pointer;
+}
+
+.cardset3 .card9 img{
+    position: relative;
+    top: 30px;
+    left: 36%;
+}
+.cardset3 .card9 h3{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.cardset3 .card9 p{
+    position: relative;
+    top: 80px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 30px;
+}
+.section4 .btnBox{
+    position: relative;
+    left: 100px;
+    top: 50px;
+    max-width: 1700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section4 .btnBox a{
+    background: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.section4 .btnBox a:hover{
+    background: blueviolet;
+    color: white;
+    transition: 0.5s;
+}
+.section5{
+    min-height: 30vh;
+    background: black;
+    margin-top: 200px;
+}
+.section5 .form{
+    width: 500px;
+    height: 600px;
+    background: black;
+    border-radius: 20px;
+    position: relative;
+    top: -150px;
+    left: 700px;
+}
+.section5 .form input[type="text"],
+input[type="password"],
+input[type="email"],input[type="number"]{
+    margin-top: 30px;
+    margin-left: 20px;
+    border: none;
+    padding: 15px;
+    width: 90%;
+    border-radius: 10px;
+    outline: none;
+}
+
+.section5 .form input[type="textbox"]{
+    border: none;
+    padding: 40px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.section5 .form input[type="button"]{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    top: 50px;
+    left: 30%;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+.section5 .form input[type="button"]:hover{
+    background-color:blueviolet;
+    transition: 0.8s;
+}
+
+.section5 .textBox5{
+    max-width: 900px;
+    text-align: center;
+    position: relative;
+    top: -200px;
+    left: 480px;
+}
+.section5 .textBox5 h2{
+    font-size: 50px;
+    color: white;
+    
+}
+.section5 .textBox5 h3{
+    font-size: 35px;
+    color: white;
+    font-weight: 400;
+}
+
+.section5 .textBox5 p{
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+    max-width: 90%;
+    margin-left: 50px;
+    line-height: 30px;
+    margin-top: 30px;
+}
